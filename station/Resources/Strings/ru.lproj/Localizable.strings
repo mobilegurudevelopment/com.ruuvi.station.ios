@@ -313,11 +313,8 @@
 "TagsManager.SignOutButton" = "Выйти из сети";
 "SignIn.SignInBenefits" = "После входа в систему вы будете автоматически отмечены как владелец ближайших сенсоров Ruuvi. Заявленные сенсоры будут восстановлены после повторной установки приложения.\n\nС помощью Ruuvi Gateway вы сможете удаленно контролировать заявленные сенсоры и делиться ими со своими друзьями.";
 "SignIn.EmailPlaceholder" = "Email";
-"SignIn.RequestCode" = "Запросить код";
-"SignIn.SubmitCode" = "Отправить";
 "SignIn.EmailSent" = "Email отправлен";
 "SignIn.CheckMailbox" = "Пожалуйста, проверьте email для дальнейших инструкций";
-"SignIn.CodeHint" = "Код для входа";
 "TagsManagerPresenter.SignOutConfirmAlert.Message" = "Хотите выйти их сети?";
 "TagSettings.ClaimTagButton.Claim" = "Мой сенсор";
 "TagSettings.ClaimTagButton.Unclaim" = "Отвязать";
@@ -334,8 +331,6 @@
 "SharePresenter.UnshareSensor.Message" = "Хотите перестать делиться показаниями датчика с %@?";
 "TagSettings.SectionHeader.NetworkInfo.title" = "Данные сети";
 "TagSettings.NetworkInfo.Owner" = "Владелец";
-"SignIn.TitleLabel.text" = "Login to\nRuuvi\nNetwork";
-"SignIn.SubtitleLabel.text" = "To enjoy all the features, create an account or login to your existing Ruuvi account by entering your email address.";
 "SignIn.VerificationCodePlaceholder" = "код подтверждения в формате: CJSM";
 "UserApiError.ER_FORBIDDEN" = "Запрещено";
 "UserApiError.ER_UNAUTHORIZED" = "Требуется авторизация";
@@ -371,7 +366,3 @@
 "TagSettings.OffsetCorrection.Temperature" = "Temperature";
 "TagSettings.OffsetCorrection.Humidity" = "Humidity";
 "TagSettings.OffsetCorrection.Pressure" = "Pressure";
-"Advanced.Charts.title" = "Charts";
-"Advanced.Network.title" = "Network";
-"Advanced.NetworkInterval.title" = "Pull Interval";
-"PhotoPicker.Sheet.files" = "Выбрать из файлов";

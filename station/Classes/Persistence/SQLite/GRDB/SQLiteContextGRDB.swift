@@ -67,6 +67,9 @@ extension SQLiteGRDBDatabase {
         }
 
         // v2
+        migrator.registerMigration("Create SensorSettingsSQLite table") { db in
+            try SensorSettingsSQLite.createTable(in: db)
+        }
         migrator.registerMigration("Add networkProvider column") { (db) in
             guard try db.columns(in: RuuviTagSQLite.databaseTableName)
                     .contains(where: {$0.name == RuuviTagSQLite.networkProviderColumn.name}) == false else {
@@ -83,7 +86,6 @@ extension SQLiteGRDBDatabase {
                 t.add(column: RuuviTagSQLite.owner.name, .text)
             }
         }
-
         try migrator.migrate(dbPool)
     }
 }
