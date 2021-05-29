@@ -112,16 +112,12 @@ extension DiscoverTableViewController: DiscoverViewInput {
     func showBluetoothDisabled() {
         let title = "DiscoverTable.BluetoothDisabledAlert.title".localized()
         let message = "DiscoverTable.BluetoothDisabledAlert.message".localized()
-        let alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alertVC.addAction(UIAlertAction(title: "OK".localized(), style: .cancel, handler: nil))
-        present(alertVC, animated: true)
+        showAlert(title: title, message: message)
     }
 
     func showWebTagInfoDialog() {
         let message = "DiscoverTable.WebTagsInfoDialog.message".localized()
-        let alertVC = UIAlertController(title: nil, message: message, preferredStyle: .alert)
-        alertVC.addAction(UIAlertAction(title: "OK".localized(), style: .cancel, handler: nil))
-        present(alertVC, animated: true)
+        showAlert(title: nil, message: message)
     }
 }
 

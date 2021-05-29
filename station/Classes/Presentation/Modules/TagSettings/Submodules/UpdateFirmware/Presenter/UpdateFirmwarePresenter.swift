@@ -13,6 +13,6 @@ class UpdateFirmwarePresenter: UpdateFirmwareModuleInput {
 
 extension UpdateFirmwarePresenter: UpdateFirmwareViewOutput {
     func viewDidOpenFlashFirmware() {
-        router.openFlashFirmware(ruuviTag)
+        router.openDfuDevicesScanner(ruuviTag)
     }
 }

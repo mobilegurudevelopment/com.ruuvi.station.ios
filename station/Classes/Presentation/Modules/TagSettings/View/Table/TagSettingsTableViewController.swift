@@ -115,7 +115,7 @@ class TagSettingsTableViewController: UITableViewController {
     @IBOutlet weak var pressureOffsetValueLabel: UILabel!
     @IBOutlet weak var updateFirmwareCell: UITableViewCell!
     @IBOutlet weak var updateFirmwareTitleLabel: UILabel!
-    
+
     @IBOutlet weak var removeThisRuuviTagButton: UIButton!
     @IBOutlet weak var footerView: UIView!
 
