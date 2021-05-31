@@ -1,4 +1,5 @@
 import Foundation
+import RuuviOntology
 
 protocol DfuDevicesScannerRouterInput: AnyObject {
     func dismiss()

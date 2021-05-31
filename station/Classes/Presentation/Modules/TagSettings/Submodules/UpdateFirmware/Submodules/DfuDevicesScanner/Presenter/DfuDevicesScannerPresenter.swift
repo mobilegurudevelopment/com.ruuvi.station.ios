@@ -1,6 +1,7 @@
 import Foundation
 import BTKit
 import UIKit
+import RuuviOntology
 
 class DfuDevicesScannerPresenter: NSObject, DfuDevicesScannerModuleInput {
     weak var view: DfuDevicesScannerViewInput!

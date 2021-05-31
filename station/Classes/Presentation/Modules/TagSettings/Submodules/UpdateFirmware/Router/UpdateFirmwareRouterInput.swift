@@ -1,4 +1,5 @@
 import Foundation
+import RuuviOntology
 
 protocol UpdateFirmwareRouterInput: AnyObject {
     func dismiss()

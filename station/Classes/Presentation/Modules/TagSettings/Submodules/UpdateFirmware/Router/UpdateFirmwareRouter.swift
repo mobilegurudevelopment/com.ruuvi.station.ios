@@ -1,5 +1,6 @@
 import Foundation
 import LightRoute
+import RuuviOntology
 
 class UpdateFirmwareRouter: UpdateFirmwareRouterInput {
     weak var transitionHandler: TransitionHandler!

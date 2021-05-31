@@ -1,4 +1,5 @@
 import Foundation
+import RuuviOntology
 
 class UpdateFirmwarePresenter: UpdateFirmwareModuleInput {
     weak var view: UpdateFirmwareViewInput!
