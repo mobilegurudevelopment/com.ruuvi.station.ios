@@ -1217,6 +1217,57 @@
 		667CBAA026649953006356CC /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBA9F26649953006356CC /* UIViewController+Alert.swift */; };
 		667CBAA126649953006356CC /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBA9F26649953006356CC /* UIViewController+Alert.swift */; };
 		667CBAA226649953006356CC /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBA9F26649953006356CC /* UIViewController+Alert.swift */; };
+		667CBAB626649F3B006356CC /* DfuFlashAppleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA626649F3B006356CC /* DfuFlashAppleInitializer.swift */; };
+		667CBAB726649F3B006356CC /* DfuFlashAppleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA626649F3B006356CC /* DfuFlashAppleInitializer.swift */; };
+		667CBAB826649F3B006356CC /* DfuFlashAppleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA626649F3B006356CC /* DfuFlashAppleInitializer.swift */; };
+		667CBAB926649F3B006356CC /* DfuFlashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA726649F3B006356CC /* DfuFlashConfigurator.swift */; };
+		667CBABA26649F3B006356CC /* DfuFlashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA726649F3B006356CC /* DfuFlashConfigurator.swift */; };
+		667CBABB26649F3B006356CC /* DfuFlashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA726649F3B006356CC /* DfuFlashConfigurator.swift */; };
+		667CBABC26649F3B006356CC /* DfuFlashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA926649F3B006356CC /* DfuFlashPresenter.swift */; };
+		667CBABD26649F3B006356CC /* DfuFlashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA926649F3B006356CC /* DfuFlashPresenter.swift */; };
+		667CBABE26649F3B006356CC /* DfuFlashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAA926649F3B006356CC /* DfuFlashPresenter.swift */; };
+		667CBABF26649F3B006356CC /* DfuFlashModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAA26649F3B006356CC /* DfuFlashModuleOutput.swift */; };
+		667CBAC026649F3B006356CC /* DfuFlashModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAA26649F3B006356CC /* DfuFlashModuleOutput.swift */; };
+		667CBAC126649F3B006356CC /* DfuFlashModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAA26649F3B006356CC /* DfuFlashModuleOutput.swift */; };
+		667CBAC226649F3B006356CC /* DfuFlashModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAB26649F3B006356CC /* DfuFlashModuleInput.swift */; };
+		667CBAC326649F3B006356CC /* DfuFlashModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAB26649F3B006356CC /* DfuFlashModuleInput.swift */; };
+		667CBAC426649F3B006356CC /* DfuFlashModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAB26649F3B006356CC /* DfuFlashModuleInput.swift */; };
+		667CBAC526649F3B006356CC /* DfuFlashAppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAE26649F3B006356CC /* DfuFlashAppleViewController.swift */; };
+		667CBAC626649F3B006356CC /* DfuFlashAppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAE26649F3B006356CC /* DfuFlashAppleViewController.swift */; };
+		667CBAC726649F3B006356CC /* DfuFlashAppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAE26649F3B006356CC /* DfuFlashAppleViewController.swift */; };
+		667CBAC826649F3B006356CC /* DfuFlashViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAF26649F3B006356CC /* DfuFlashViewOutput.swift */; };
+		667CBAC926649F3B006356CC /* DfuFlashViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAF26649F3B006356CC /* DfuFlashViewOutput.swift */; };
+		667CBACA26649F3B006356CC /* DfuFlashViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAAF26649F3B006356CC /* DfuFlashViewOutput.swift */; };
+		667CBACB26649F3B006356CC /* DfuFlashViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB026649F3B006356CC /* DfuFlashViewInput.swift */; };
+		667CBACC26649F3B006356CC /* DfuFlashViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB026649F3B006356CC /* DfuFlashViewInput.swift */; };
+		667CBACD26649F3B006356CC /* DfuFlashViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB026649F3B006356CC /* DfuFlashViewInput.swift */; };
+		667CBACE26649F3B006356CC /* DfuFlashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB126649F3B006356CC /* DfuFlashViewModel.swift */; };
+		667CBACF26649F3B006356CC /* DfuFlashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB126649F3B006356CC /* DfuFlashViewModel.swift */; };
+		667CBAD026649F3B006356CC /* DfuFlashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB126649F3B006356CC /* DfuFlashViewModel.swift */; };
+		667CBAD126649F3B006356CC /* DfuFlash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667CBAB226649F3B006356CC /* DfuFlash.storyboard */; };
+		667CBAD226649F3B006356CC /* DfuFlash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667CBAB226649F3B006356CC /* DfuFlash.storyboard */; };
+		667CBAD326649F3B006356CC /* DfuFlash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667CBAB226649F3B006356CC /* DfuFlash.storyboard */; };
+		667CBAD426649F3B006356CC /* DfuFlashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB426649F3B006356CC /* DfuFlashRouter.swift */; };
+		667CBAD526649F3B006356CC /* DfuFlashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB426649F3B006356CC /* DfuFlashRouter.swift */; };
+		667CBAD626649F3B006356CC /* DfuFlashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB426649F3B006356CC /* DfuFlashRouter.swift */; };
+		667CBAD726649F3B006356CC /* DfuFlashRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB526649F3B006356CC /* DfuFlashRouterInput.swift */; };
+		667CBAD826649F3B006356CC /* DfuFlashRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB526649F3B006356CC /* DfuFlashRouterInput.swift */; };
+		667CBAD926649F3B006356CC /* DfuFlashRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAB526649F3B006356CC /* DfuFlashRouterInput.swift */; };
+		667CBADC2664B227006356CC /* DfuLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBADB2664B227006356CC /* DfuLogTableViewCell.swift */; };
+		667CBADD2664B227006356CC /* DfuLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBADB2664B227006356CC /* DfuLogTableViewCell.swift */; };
+		667CBADE2664B227006356CC /* DfuLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBADB2664B227006356CC /* DfuLogTableViewCell.swift */; };
+		667CBAE12664CC5A006356CC /* DfuFilePickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAE02664CC5A006356CC /* DfuFilePickerPresenter.swift */; };
+		667CBAE22664CC5A006356CC /* DfuFilePickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAE02664CC5A006356CC /* DfuFilePickerPresenter.swift */; };
+		667CBAE32664CC5A006356CC /* DfuFilePickerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAE02664CC5A006356CC /* DfuFilePickerPresenter.swift */; };
+		667CBAE62664CC96006356CC /* DfuFilePickerPresenterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAE52664CC96006356CC /* DfuFilePickerPresenterSheet.swift */; };
+		667CBAE72664CC96006356CC /* DfuFilePickerPresenterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAE52664CC96006356CC /* DfuFilePickerPresenterSheet.swift */; };
+		667CBAE82664CC96006356CC /* DfuFilePickerPresenterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667CBAE52664CC96006356CC /* DfuFilePickerPresenterSheet.swift */; };
+		66ADEB5E2666773F00BDF74A /* DfuLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADEB5D2666773F00BDF74A /* DfuLog.swift */; };
+		66ADEB5F2666773F00BDF74A /* DfuLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADEB5D2666773F00BDF74A /* DfuLog.swift */; };
+		66ADEB602666773F00BDF74A /* DfuLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADEB5D2666773F00BDF74A /* DfuLog.swift */; };
+		66ADEB622666930F00BDF74A /* DfuFlasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADEB612666930F00BDF74A /* DfuFlasher.swift */; };
+		66ADEB632666930F00BDF74A /* DfuFlasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADEB612666930F00BDF74A /* DfuFlasher.swift */; };
+		66ADEB642666930F00BDF74A /* DfuFlasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ADEB612666930F00BDF74A /* DfuFlasher.swift */; };
 		66BC44952657AED400A03253 /* OffsetCorrection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BC44832657AED400A03253 /* OffsetCorrection.storyboard */; };
 		66BC44962657AED400A03253 /* OffsetCorrection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BC44832657AED400A03253 /* OffsetCorrection.storyboard */; };
 		66BC44972657AED400A03253 /* OffsetCorrection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BC44832657AED400A03253 /* OffsetCorrection.storyboard */; };
@@ -2048,6 +2099,23 @@
 		667CBA91266497A4006356CC /* DfuAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuAssembly.swift; sourceTree = "<group>"; };
 		667CBA92266497A4006356CC /* DfuScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuScanner.swift; sourceTree = "<group>"; };
 		667CBA9F26649953006356CC /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		667CBAA626649F3B006356CC /* DfuFlashAppleInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashAppleInitializer.swift; sourceTree = "<group>"; };
+		667CBAA726649F3B006356CC /* DfuFlashConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashConfigurator.swift; sourceTree = "<group>"; };
+		667CBAA926649F3B006356CC /* DfuFlashPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashPresenter.swift; sourceTree = "<group>"; };
+		667CBAAA26649F3B006356CC /* DfuFlashModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashModuleOutput.swift; sourceTree = "<group>"; };
+		667CBAAB26649F3B006356CC /* DfuFlashModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashModuleInput.swift; sourceTree = "<group>"; };
+		667CBAAE26649F3B006356CC /* DfuFlashAppleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashAppleViewController.swift; sourceTree = "<group>"; };
+		667CBAAF26649F3B006356CC /* DfuFlashViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashViewOutput.swift; sourceTree = "<group>"; };
+		667CBAB026649F3B006356CC /* DfuFlashViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashViewInput.swift; sourceTree = "<group>"; };
+		667CBAB126649F3B006356CC /* DfuFlashViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashViewModel.swift; sourceTree = "<group>"; };
+		667CBAB226649F3B006356CC /* DfuFlash.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DfuFlash.storyboard; sourceTree = "<group>"; };
+		667CBAB426649F3B006356CC /* DfuFlashRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashRouter.swift; sourceTree = "<group>"; };
+		667CBAB526649F3B006356CC /* DfuFlashRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DfuFlashRouterInput.swift; sourceTree = "<group>"; };
+		667CBADB2664B227006356CC /* DfuLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DfuLogTableViewCell.swift; sourceTree = "<group>"; };
+		667CBAE02664CC5A006356CC /* DfuFilePickerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DfuFilePickerPresenter.swift; sourceTree = "<group>"; };
+		667CBAE52664CC96006356CC /* DfuFilePickerPresenterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DfuFilePickerPresenterSheet.swift; sourceTree = "<group>"; };
+		66ADEB5D2666773F00BDF74A /* DfuLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DfuLog.swift; sourceTree = "<group>"; };
+		66ADEB612666930F00BDF74A /* DfuFlasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DfuFlasher.swift; sourceTree = "<group>"; };
 		66BC44832657AED400A03253 /* OffsetCorrection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OffsetCorrection.storyboard; sourceTree = "<group>"; };
 		66BC44862657AED400A03253 /* OffsetCorrectionAppleInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetCorrectionAppleInitializer.swift; sourceTree = "<group>"; };
 		66BC44872657AED400A03253 /* OffsetCorrectionConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetCorrectionConfigurator.swift; sourceTree = "<group>"; };
@@ -2476,17 +2544,17 @@
 		0E09671622AE74D600E85F48 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				667CBA8E266497A4006356CC /* Dfu */,
 				0E09671522AE74CB00E85F48 /* Application */,
 				0EEB210722B7D8020015F9E0 /* Business */,
 				0E5C300C22CF632500B52E39 /* Core */,
+				667CBA8E266497A4006356CC /* Dfu */,
 				0E1C1DA122B36CE70032F6CA /* Model */,
 				0E9F97A322EB1B290015ADE2 /* Networking */,
 				0E1C1D9222B360160032F6CA /* Persistence */,
+				0E09671922AE764200E85F48 /* Presentation */,
 				0E8BAC65245C4AB900D380FB /* Reactor */,
 				0E8BAC70245C4C6800D380FB /* Tank */,
 				0E8BACCA245EE62E00D380FB /* Trunk */,
-				0E09671922AE764200E85F48 /* Presentation */,
 				0EA31069232B75E700BC8CF5 /* Util */,
 			);
 			path = Classes;
@@ -2720,8 +2788,9 @@
 		0E1C1DAC22B38F220032F6CA /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				A93CDCCC25659B8600018C6C /* Alert */,
 				0E1C1DAD22B38F320032F6CA /* Activity */,
+				A93CDCCC25659B8600018C6C /* Alert */,
+				667CBADF2664CC27006356CC /* DfuFilePicker */,
 				0E1C1DBF22B3954E0032F6CA /* Error */,
 				0E197C6423C4A44C0074015B /* MailComposer */,
 				0E5C301722CF642F00B52E39 /* Permission */,
@@ -4444,11 +4513,11 @@
 		0EF2862522CBAF280026C7A5 /* TagSettings */ = {
 			isa = PBXGroup;
 			children = (
-				66BC44812657AED400A03253 /* Submodules */,
 				0EF2862B22CBAF5D0026C7A5 /* TagSettings.storyboard */,
 				0EF2862A22CBAF480026C7A5 /* Assembly */,
 				0EF2862822CBAF3C0026C7A5 /* Presenter */,
 				0EF2862722CBAF370026C7A5 /* Router */,
+				66BC44812657AED400A03253 /* Submodules */,
 				0EF2862622CBAF320026C7A5 /* View */,
 			);
 			path = TagSettings;
@@ -4770,12 +4839,12 @@
 		667CBA212664964A006356CC /* DfuDevicesScanner */ = {
 			isa = PBXGroup;
 			children = (
+				667CBA322664964A006356CC /* DfuDevicesScanner.storyboard */,
 				667CBA222664964A006356CC /* Assembly */,
 				667CBA252664964A006356CC /* Presenter */,
+				667CBA332664964A006356CC /* Router */,
 				667CBA292664964A006356CC /* Submodules */,
 				667CBA2A2664964A006356CC /* View */,
-				667CBA322664964A006356CC /* DfuDevicesScanner.storyboard */,
-				667CBA332664964A006356CC /* Router */,
 			);
 			path = DfuDevicesScanner;
 			sourceTree = "<group>";
@@ -4802,6 +4871,7 @@
 		667CBA292664964A006356CC /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
+				667CBAA326649F3B006356CC /* DfuFlash */,
 			);
 			path = Submodules;
 			sourceTree = "<group>";
@@ -4809,11 +4879,11 @@
 		667CBA2A2664964A006356CC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				667CBA2B2664964A006356CC /* Cells */,
-				667CBA2E2664964A006356CC /* DfuDevicesScannerViewInput.swift */,
 				667CBA2F2664964A006356CC /* DfuDevicesScannerTableViewController.swift */,
+				667CBA2E2664964A006356CC /* DfuDevicesScannerViewInput.swift */,
 				667CBA302664964A006356CC /* DfuDevicesScannerViewModel.swift */,
 				667CBA312664964A006356CC /* DfuDevicesScannerViewOutput.swift */,
+				667CBA2B2664964A006356CC /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -4830,8 +4900,8 @@
 		667CBA332664964A006356CC /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				667CBA342664964A006356CC /* DfuDevicesScannerRouterInput.swift */,
 				667CBA352664964A006356CC /* DfuDevicesScannerRouter.swift */,
+				667CBA342664964A006356CC /* DfuDevicesScannerRouterInput.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -4871,8 +4941,103 @@
 				667CBA90266497A4006356CC /* DfuDevice.swift */,
 				667CBA91266497A4006356CC /* DfuAssembly.swift */,
 				667CBA92266497A4006356CC /* DfuScanner.swift */,
+				66ADEB5D2666773F00BDF74A /* DfuLog.swift */,
+				66ADEB612666930F00BDF74A /* DfuFlasher.swift */,
 			);
 			path = Dfu;
+			sourceTree = "<group>";
+		};
+		667CBAA326649F3B006356CC /* DfuFlash */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAB226649F3B006356CC /* DfuFlash.storyboard */,
+				667CBAA426649F3B006356CC /* Assembly */,
+				667CBAA826649F3B006356CC /* Presenter */,
+				667CBAB326649F3B006356CC /* Router */,
+				667CBAAC26649F3B006356CC /* View */,
+			);
+			path = DfuFlash;
+			sourceTree = "<group>";
+		};
+		667CBAA426649F3B006356CC /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAA526649F3B006356CC /* Apple */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		667CBAA526649F3B006356CC /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAA626649F3B006356CC /* DfuFlashAppleInitializer.swift */,
+				667CBAA726649F3B006356CC /* DfuFlashConfigurator.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		667CBAA826649F3B006356CC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAA926649F3B006356CC /* DfuFlashPresenter.swift */,
+				667CBAAA26649F3B006356CC /* DfuFlashModuleOutput.swift */,
+				667CBAAB26649F3B006356CC /* DfuFlashModuleInput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		667CBAAC26649F3B006356CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAAD26649F3B006356CC /* Apple */,
+				667CBADA2664B20D006356CC /* Cells */,
+				667CBAB026649F3B006356CC /* DfuFlashViewInput.swift */,
+				667CBAB126649F3B006356CC /* DfuFlashViewModel.swift */,
+				667CBAAF26649F3B006356CC /* DfuFlashViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		667CBAAD26649F3B006356CC /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAAE26649F3B006356CC /* DfuFlashAppleViewController.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		667CBAB326649F3B006356CC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAB426649F3B006356CC /* DfuFlashRouter.swift */,
+				667CBAB526649F3B006356CC /* DfuFlashRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		667CBADA2664B20D006356CC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				667CBADB2664B227006356CC /* DfuLogTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		667CBADF2664CC27006356CC /* DfuFilePicker */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAE42664CC75006356CC /* Sheet */,
+				667CBAE02664CC5A006356CC /* DfuFilePickerPresenter.swift */,
+			);
+			path = DfuFilePicker;
+			sourceTree = "<group>";
+		};
+		667CBAE42664CC75006356CC /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				667CBAE52664CC96006356CC /* DfuFilePickerPresenterSheet.swift */,
+			);
+			path = Sheet;
 			sourceTree = "<group>";
 		};
 		66BC44812657AED400A03253 /* Submodules */ = {
@@ -5725,6 +5890,7 @@
 				0EEB3E922526F03B008CE97B /* XCRemoteSwiftPackageReference "RxSwift" */,
 				A9DDC7122531169200FA4704 /* XCRemoteSwiftPackageReference "Humidity" */,
 				A9DDC71F2531191E00FA4704 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				667CBAE92664F5A7006356CC /* XCRemoteSwiftPackageReference "IOS-Pods-DFU-Library" */,
 			);
 			productRefGroup = 64333D2620B0C45900CDF4B6 /* Products */;
 			projectDirPath = "";
@@ -5748,6 +5914,7 @@
 				0E6BAEAA23856A01003A2D4C /* About.storyboard in Resources */,
 				0E6BAEAB23856A01003A2D4C /* GoogleService-Info.plist in Resources */,
 				0E197C7123C4A7D00074015B /* Presentation.plist in Resources */,
+				667CBAD326649F3B006356CC /* DfuFlash.storyboard in Resources */,
 				0E31B04823BBA3F900660412 /* WebTagSettingsAlertsHeaderFooterView.xib in Resources */,
 				0E6BAEAC23856A01003A2D4C /* DiscoverWebTagsInfoHeaderFooterView.xib in Resources */,
 				66BC44972657AED400A03253 /* OffsetCorrection.storyboard in Resources */,
@@ -5798,6 +5965,7 @@
 				0E8BD3E0238566AB008B31EF /* About.storyboard in Resources */,
 				0E8BD3E1238566AB008B31EF /* GoogleService-Info.plist in Resources */,
 				0E197C7023C4A7D00074015B /* Presentation.plist in Resources */,
+				667CBAD226649F3B006356CC /* DfuFlash.storyboard in Resources */,
 				0E31B04723BBA3F900660412 /* WebTagSettingsAlertsHeaderFooterView.xib in Resources */,
 				0E8BD3E2238566AB008B31EF /* DiscoverWebTagsInfoHeaderFooterView.xib in Resources */,
 				66BC44962657AED400A03253 /* OffsetCorrection.storyboard in Resources */,
@@ -5848,6 +6016,7 @@
 				0EEB20EF22B7D1580015F9E0 /* About.storyboard in Resources */,
 				0ECDF1B52313D65500A09ACA /* GoogleService-Info.plist in Resources */,
 				0E197C6F23C4A7D00074015B /* Presentation.plist in Resources */,
+				667CBAD126649F3B006356CC /* DfuFlash.storyboard in Resources */,
 				0E31B04623BBA3F900660412 /* WebTagSettingsAlertsHeaderFooterView.xib in Resources */,
 				0E3FF735238157B700EB98F9 /* DiscoverWebTagsInfoHeaderFooterView.xib in Resources */,
 				66BC44952657AED400A03253 /* OffsetCorrection.storyboard in Resources */,
@@ -6287,6 +6456,7 @@
 				A91D030B2511207300694733 /* SelectionRouterInput.swift in Sources */,
 				667CBA782664964A006356CC /* DfuDevicesScannerRouter.swift in Sources */,
 				0E6BAD9323856A01003A2D4C /* TagChartsViewModel.swift in Sources */,
+				667CBABE26649F3B006356CC /* DfuFlashPresenter.swift in Sources */,
 				0E6BAD9423856A01003A2D4C /* WebTagPersistenceRealm.swift in Sources */,
 				0E6BAD9523856A01003A2D4C /* LocalNotificationsManagerImpl.swift in Sources */,
 				A9646480247BAE6B0001D55D /* AdvancedInitializer.swift in Sources */,
@@ -6306,8 +6476,11 @@
 				66BC449A2657AED400A03253 /* OffsetCorrectionAppleInitializer.swift in Sources */,
 				0E6BAD9B23856A01003A2D4C /* DefaultsPresenter.swift in Sources */,
 				A92A66BF2450C64B002918E7 /* UITableViewCell+ReusableView.swift in Sources */,
+				667CBACD26649F3B006356CC /* DfuFlashViewInput.swift in Sources */,
 				A975817B249F471900BC150A /* LocationPersistence.swift in Sources */,
+				667CBAC126649F3B006356CC /* DfuFlashModuleOutput.swift in Sources */,
 				0E6BAD9C23856A01003A2D4C /* WelcomeViewInput.swift in Sources */,
+				66ADEB602666773F00BDF74A /* DfuLog.swift in Sources */,
 				0E8BACD9245EE72500D380FB /* TrunkAssembly.swift in Sources */,
 				A9B57450253B994900DB7353 /* SignInModuleInput.swift in Sources */,
 				A91D02F92511207300694733 /* SelectionModuleInput.swift in Sources */,
@@ -6355,11 +6528,13 @@
 				667CBA9E266497A4006356CC /* DfuScanner.swift in Sources */,
 				0EAD33F02399273E00EC5BAA /* HeartbeatViewModel.swift in Sources */,
 				0E6BADB423856A01003A2D4C /* WebTagDaemonImpl.swift in Sources */,
+				667CBACA26649F3B006356CC /* DfuFlashViewOutput.swift in Sources */,
 				0E6BADB723856A01003A2D4C /* DefaultsStepperTableViewCell.swift in Sources */,
 				A94FFD44241C2D7200888017 /* CalibrationService.swift in Sources */,
 				0E6BADBA23856A01003A2D4C /* SettingsRouter.swift in Sources */,
 				0EE49B9B23B877CF003012C2 /* WebTagSettingsAlertControlsCell.swift in Sources */,
 				0EA92FDD2387E734008F1558 /* TagSettingsAlertsHeaderFooterView.swift in Sources */,
+				667CBAE82664CC96006356CC /* DfuFilePickerPresenterSheet.swift in Sources */,
 				0E6BADBC23856A01003A2D4C /* WeatherProviderServiceImpl.swift in Sources */,
 				A9B57440253B993200DB7353 /* SignInConfigurator.swift in Sources */,
 				0E4557F923E820920025AEBF /* BackgroundProcessService.swift in Sources */,
@@ -6374,6 +6549,7 @@
 				0E6BADC123856A01003A2D4C /* TagSettingsViewModel.swift in Sources */,
 				A9B5744E253B994900DB7353 /* SignInViewController.swift in Sources */,
 				0E6BADC223856A01003A2D4C /* CardsPresenter.swift in Sources */,
+				667CBAD026649F3B006356CC /* DfuFlashViewModel.swift in Sources */,
 				0E6BADC323856A01003A2D4C /* DiscoverWebTagsInfoHeaderFooterView.swift in Sources */,
 				0E6BADC423856A01003A2D4C /* CoreAssembly.swift in Sources */,
 				A9BD38BC24F6108300904BBE /* Humidity+Offset.swift in Sources */,
@@ -6423,9 +6599,11 @@
 				0E6BADE423856A01003A2D4C /* DefaultsConfigurator.swift in Sources */,
 				0E6BADE523856A01003A2D4C /* MenuRouter.swift in Sources */,
 				0E6BADE623856A01003A2D4C /* ForegroundRouterInput.swift in Sources */,
+				667CBAC426649F3B006356CC /* DfuFlashModuleInput.swift in Sources */,
 				66BC449D2657AED400A03253 /* OffsetCorrectionConfigurator.swift in Sources */,
 				0EAD33E72399273E00EC5BAA /* HeartbeatConfigurator.swift in Sources */,
 				0EE49BB823B8C8C0003012C2 /* BackgroundTaskService.swift in Sources */,
+				667CBADE2664B227006356CC /* DfuLogTableViewCell.swift in Sources */,
 				0E6BADE723856A01003A2D4C /* GATTServiceQueue.swift in Sources */,
 				A94A883C24D4386D00D2CBA4 /* Ext-UIButton-CommonFormat.swift in Sources */,
 				0E8BACE9245F0EDD00D380FB /* RuuviTagSensorRecord+RuuviMeasurement.swift in Sources */,
@@ -6466,6 +6644,7 @@
 				667CBA4B2664964A006356CC /* UpdateFirmwareModuleOutput.swift in Sources */,
 				A94A884E24D4386D00D2CBA4 /* HexadecimalKeyboard.swift in Sources */,
 				0E6BADFD23856A01003A2D4C /* AlertService.swift in Sources */,
+				667CBAB826649F3B006356CC /* DfuFlashAppleInitializer.swift in Sources */,
 				A98D3F00256CBD400066588B /* ShareModuleInput.swift in Sources */,
 				A975817F249F476700BC150A /* LocationPersistenceImpl.swift in Sources */,
 				A949A83D24707FDE006B7F4F /* LocalizedCache.swift in Sources */,
@@ -6480,6 +6659,7 @@
 				0E6BAE0323856A01003A2D4C /* CardsScrollViewController.swift in Sources */,
 				A980573A25807118000D03AB /* AboutViewModel.swift in Sources */,
 				0E6BAE0423856A01003A2D4C /* LanguagePresenter.swift in Sources */,
+				667CBAE32664CC5A006356CC /* DfuFilePickerPresenter.swift in Sources */,
 				A9A67BFC24C5C8A500C710D6 /* NSObjectProtocol+Invalidation.swift in Sources */,
 				0E28641A246062F000363DCB /* VirtualTagTrunk.swift in Sources */,
 				A964647A247BAE6B0001D55D /* AdvancedViewModel.swift in Sources */,
@@ -6490,6 +6670,7 @@
 				A9B5744B253B994900DB7353 /* SignInRouterInput.swift in Sources */,
 				A976CA8024A928C20099BDC1 /* AdvancedDisclosureTableViewCell.swift in Sources */,
 				A9758183249F4C9600BC150A /* LocationAppleClass.swift in Sources */,
+				667CBAD926649F3B006356CC /* DfuFlashRouterInput.swift in Sources */,
 				A90E16992460504C00631E6C /* TagChartModuleOutput.swift in Sources */,
 				667CBA6F2664964A006356CC /* DfuDevicesScannerViewOutput.swift in Sources */,
 				A91D031C25113EAA00694733 /* UnitPressure+Extension.swift in Sources */,
@@ -6539,6 +6720,7 @@
 				0E6BAE2523856A01003A2D4C /* PresentationAssembly.swift in Sources */,
 				0E6BAE2623856A01003A2D4C /* DiscoverWebTagTableViewCell.swift in Sources */,
 				667CBA5A2664964A006356CC /* DfuDevicesScannerModuleInput.swift in Sources */,
+				667CBAC726649F3B006356CC /* DfuFlashAppleViewController.swift in Sources */,
 				0E6BAE2723856A01003A2D4C /* AboutModuleInput.swift in Sources */,
 				0E6BAE2823856A01003A2D4C /* WelcomeViewOutput.swift in Sources */,
 				0E2864322460697100363DCB /* VirtualTagTankCoordinator.swift in Sources */,
@@ -6646,6 +6828,7 @@
 				0E6BAE7523856A01003A2D4C /* TagSettingsTableInitializer.swift in Sources */,
 				0E6BAE7623856A01003A2D4C /* MigrationManagerToVIPER.swift in Sources */,
 				0E6BAE7723856A01003A2D4C /* RUError.swift in Sources */,
+				667CBAD626649F3B006356CC /* DfuFlashRouter.swift in Sources */,
 				0E45581023E935400025AEBF /* BackgroundProcessServiceiOS12.swift in Sources */,
 				0E6BAE7823856A01003A2D4C /* LocationService.swift in Sources */,
 				667CBA98266497A4006356CC /* DfuDevice.swift in Sources */,
@@ -6669,6 +6852,7 @@
 				0E6BAE8923856A01003A2D4C /* NetworkingAssembly.swift in Sources */,
 				0E31B04423BBA37C00660412 /* WebTagSettingsAlertsHeaderFooterView.swift in Sources */,
 				0E6BAE8A23856A01003A2D4C /* CalibrationPersistenceUserDefaults.swift in Sources */,
+				667CBABB26649F3B006356CC /* DfuFlashConfigurator.swift in Sources */,
 				A91D0313251123B400694733 /* SelectionModuleOutput.swift in Sources */,
 				0E6BAE8B23856A01003A2D4C /* ForegroundRow.swift in Sources */,
 				0E6BAE8C23856A01003A2D4C /* SettingsViewOutput.swift in Sources */,
@@ -6704,6 +6888,7 @@
 				0E6BAE9D23856A01003A2D4C /* OpenWeatherMapAPIURLSession.swift in Sources */,
 				A9020044244E1501001882C3 /* ChartFilterOperation.swift in Sources */,
 				A9646477247BAE6B0001D55D /* AdvancedViewOutput.swift in Sources */,
+				66ADEB642666930F00BDF74A /* DfuFlasher.swift in Sources */,
 				0E6BAE9E23856A01003A2D4C /* Worker.swift in Sources */,
 				0E6BAE9F23856A01003A2D4C /* ErrorPresenterAlert.swift in Sources */,
 				A91D03022511207300694733 /* SelectionTableViewController.swift in Sources */,
@@ -6746,6 +6931,7 @@
 				A9646473247BAE6B0001D55D /* AdvancedTableViewController.swift in Sources */,
 				A9828E4224792D6B00E7E9D4 /* SectionChanges.swift in Sources */,
 				0EB48DFD261B105D008E0D2D /* RemoteConfigService.swift in Sources */,
+				66ADEB632666930F00BDF74A /* DfuFlasher.swift in Sources */,
 				0E8BD2C4238566AB008B31EF /* WelcomeConfigurator.swift in Sources */,
 				0E8BD2C5238566AB008B31EF /* ForegroundModuleInput.swift in Sources */,
 				0E31B05123BDED6C00660412 /* PullWebDaemonOperations.swift in Sources */,
@@ -6759,6 +6945,7 @@
 				0E8BD2CA238566AB008B31EF /* WebTagPersistenceRealm.swift in Sources */,
 				0E8BD2CB238566AB008B31EF /* LocalNotificationsManagerImpl.swift in Sources */,
 				0E8BD2CC238566AB008B31EF /* PermissionPresenter.swift in Sources */,
+				667CBAC326649F3B006356CC /* DfuFlashModuleInput.swift in Sources */,
 				0E8BACA9245C84BE00D380FB /* TankAssembly.swift in Sources */,
 				0E0C19BF23D1FA3600A75EF5 /* AlertServiceImpl+Process.swift in Sources */,
 				0EAD33D82399273D00EC5BAA /* HeartbeatInitializer.swift in Sources */,
@@ -6804,6 +6991,7 @@
 				0EE98A7A26493C5000AAB3ED /* FLEXFeatureTogglesViewController.swift in Sources */,
 				66BC449C2657AED400A03253 /* OffsetCorrectionConfigurator.swift in Sources */,
 				0E8BD2DD238566AB008B31EF /* Localizable.swift in Sources */,
+				667CBABA26649F3B006356CC /* DfuFlashConfigurator.swift in Sources */,
 				0E197C6223C352380074015B /* TagSettingsAlertDescriptionCell.swift in Sources */,
 				0E8BD2DE238566AB008B31EF /* LocationPickerAppleInitializer.swift in Sources */,
 				0E8BD2DF238566AB008B31EF /* TagChartsPresenter.swift in Sources */,
@@ -6866,6 +7054,7 @@
 				0E8BD30B238566AB008B31EF /* LocationManagerImpl.swift in Sources */,
 				0E8BD30C238566AB008B31EF /* MainRouter.swift in Sources */,
 				A95BA3E82451EE3A00EF923D /* KeychainServiceImpl.swift in Sources */,
+				667CBABD26649F3B006356CC /* DfuFlashPresenter.swift in Sources */,
 				0E8BD30D238566AB008B31EF /* TagChartsScrollViewController.swift in Sources */,
 				667CBA94266497A4006356CC /* RuuviDfu.swift in Sources */,
 				0E8BD30F238566AB008B31EF /* PhotoPickerPresenterSheet.swift in Sources */,
@@ -6908,6 +7097,7 @@
 				0E8BD326238566AB008B31EF /* MenuTableInitializer.swift in Sources */,
 				0E8BD327238566AB008B31EF /* LocationPickerViewOutput.swift in Sources */,
 				667CBA472664964A006356CC /* UpdateFirmwarePresenter.swift in Sources */,
+				667CBAC626649F3B006356CC /* DfuFlashAppleViewController.swift in Sources */,
 				0EE49B9623B74775003012C2 /* WebTagSettingsAlertHeaderCell.swift in Sources */,
 				0E8BD328238566AB008B31EF /* WebTagSettingsTableViewController.swift in Sources */,
 				0E8BD329238566AB008B31EF /* WelcomeRouter.swift in Sources */,
@@ -6915,6 +7105,7 @@
 				A9100D6D241AC751004007FD /* WPSData.swift in Sources */,
 				A9E5994B2557341F00F9E5CC /* ShareDescriptionTableViewCell.swift in Sources */,
 				0E45580623E907190025AEBF /* WebTagDataPruningOperation.swift in Sources */,
+				66ADEB5F2666773F00BDF74A /* DfuLog.swift in Sources */,
 				A94A886E24D6B5CF00D2CBA4 /* RUColor.swift in Sources */,
 				0E8BD32B238566AB008B31EF /* AlertType.swift in Sources */,
 				A91D0312251123B400694733 /* SelectionModuleOutput.swift in Sources */,
@@ -6972,6 +7163,7 @@
 				667CBA5F2664964A006356CC /* DfuNoDeviceTableViewCell.swift in Sources */,
 				0E8BD353238566AB008B31EF /* LocalizationService.swift in Sources */,
 				0E8BD354238566AB008B31EF /* RURangeSeekSlider.swift in Sources */,
+				667CBAE72664CC96006356CC /* DfuFilePickerPresenterSheet.swift in Sources */,
 				0E8BD355238566AB008B31EF /* CardsModuleInput.swift in Sources */,
 				0E8BD356238566AB008B31EF /* LanguageRouterInput.swift in Sources */,
 				0E8BD357238566AB008B31EF /* UserDefault.swift in Sources */,
@@ -7013,9 +7205,11 @@
 				0E8BD371238566AB008B31EF /* WebTagServiceImpl.swift in Sources */,
 				0E8BD372238566AB008B31EF /* SwipeDownToDismissTransitioningDelegate.swift in Sources */,
 				0E8BD373238566AB008B31EF /* MenuViewInput.swift in Sources */,
+				667CBAD526649F3B006356CC /* DfuFlashRouter.swift in Sources */,
 				0E8BD374238566AB008B31EF /* ActivitySpinnerView.swift in Sources */,
 				A9E6774925A33081000B75A3 /* String+Characters.swift in Sources */,
 				A91D030A2511207300694733 /* SelectionRouterInput.swift in Sources */,
+				667CBAC926649F3B006356CC /* DfuFlashViewOutput.swift in Sources */,
 				0E8BD376238566AB008B31EF /* ActivityPresenterRuuviLogo.swift in Sources */,
 				A9828E4F24792DF300E7E9D4 /* Array+Extension.swift in Sources */,
 				0EAD33E42399273D00EC5BAA /* HeartbeatViewController.swift in Sources */,
@@ -7095,6 +7289,8 @@
 				0E8BD3AB238566AB008B31EF /* TagSettingsTableInitializer.swift in Sources */,
 				0E8BD3AC238566AB008B31EF /* MigrationManagerToVIPER.swift in Sources */,
 				A9BD38BB24F6108300904BBE /* Humidity+Offset.swift in Sources */,
+				667CBACC26649F3B006356CC /* DfuFlashViewInput.swift in Sources */,
+				667CBAC026649F3B006356CC /* DfuFlashModuleOutput.swift in Sources */,
 				0E8BD3AD238566AB008B31EF /* RUError.swift in Sources */,
 				0E45580F23E935400025AEBF /* BackgroundProcessServiceiOS12.swift in Sources */,
 				0E8BD3AE238566AB008B31EF /* LocationService.swift in Sources */,
@@ -7118,6 +7314,7 @@
 				0E8BD3BC238566AB008B31EF /* LanguageTableViewCell.swift in Sources */,
 				A9FC78EA2579671B00F94604 /* UniversalLinkCoordinator.swift in Sources */,
 				0E8BD3BD238566AB008B31EF /* PermissionsManager.swift in Sources */,
+				667CBAD826649F3B006356CC /* DfuFlashRouterInput.swift in Sources */,
 				0E8BD3BF238566AB008B31EF /* NetworkingAssembly.swift in Sources */,
 				0E31B04323BBA37C00660412 /* WebTagSettingsAlertsHeaderFooterView.swift in Sources */,
 				0E8BD3C0238566AB008B31EF /* CalibrationPersistenceUserDefaults.swift in Sources */,
@@ -7140,6 +7337,7 @@
 				0E8BD3CA238566AB008B31EF /* CardsRouter.swift in Sources */,
 				0E8BACFF2460358F00D380FB /* MigrationManagerToSQLite.swift in Sources */,
 				0E8BD3CB238566AB008B31EF /* WelcomeViewController.swift in Sources */,
+				667CBACF26649F3B006356CC /* DfuFlashViewModel.swift in Sources */,
 				A9646488247BAE6B0001D55D /* AdvancedRouterInput.swift in Sources */,
 				0E8BD3CC238566AB008B31EF /* CardsRouterInput.swift in Sources */,
 				A91D031B25113EAA00694733 /* UnitPressure+Extension.swift in Sources */,
@@ -7153,6 +7351,7 @@
 				0E2864402461B9FD00363DCB /* VirtualTagReactor.swift in Sources */,
 				A907A1D4245F7C6600041F6E /* ProgressBarView.swift in Sources */,
 				318592DB25BB4D000093B8EB /* UserPropertiesService.swift in Sources */,
+				667CBAE22664CC5A006356CC /* DfuFilePickerPresenter.swift in Sources */,
 				0E8BD3CF238566AB008B31EF /* SettingsViewInput.swift in Sources */,
 				0E8BD3D0238566AB008B31EF /* AlertPersistence.swift in Sources */,
 				667CBA742664964A006356CC /* DfuDevicesScannerRouterInput.swift in Sources */,
@@ -7160,6 +7359,7 @@
 				0E45580A23E907300025AEBF /* RuuviTagDataPruningOperation.swift in Sources */,
 				0E8BD3D2238566AB008B31EF /* CardsRouterDelegate.swift in Sources */,
 				A90E169424604FD100631E6C /* TagChartModuleInput.swift in Sources */,
+				667CBAB726649F3B006356CC /* DfuFlashAppleInitializer.swift in Sources */,
 				0E8BD3D3238566AB008B31EF /* OpenWeatherMapAPIURLSession.swift in Sources */,
 				A9020043244E1500001882C3 /* ChartFilterOperation.swift in Sources */,
 				66BC44A82657AED400A03253 /* OffsetCorrectionAppleViewController.swift in Sources */,
@@ -7181,6 +7381,7 @@
 				8A37F49EA3B84BB415491B03 /* SignInModuleOutput.swift in Sources */,
 				7350803A8D6DD23F1057994F /* SignInPresenter.swift in Sources */,
 				E8C4E5B85668D51EC22BC75A /* SignInRouterInput.swift in Sources */,
+				667CBADD2664B227006356CC /* DfuLogTableViewCell.swift in Sources */,
 				D037B55274A07756F884696B /* SignInRouter.swift in Sources */,
 				ABCA915676F9A8C975D9F2A3 /* SignInViewInput.swift in Sources */,
 				664A5D14265B90E50035A11F /* MigrationManagerSensorSettings.swift in Sources */,
@@ -7254,6 +7455,7 @@
 				A94A883A24D4386D00D2CBA4 /* Ext-UIButton-CommonFormat.swift in Sources */,
 				667CBA762664964A006356CC /* DfuDevicesScannerRouter.swift in Sources */,
 				A9E5994A2557341F00F9E5CC /* ShareDescriptionTableViewCell.swift in Sources */,
+				667CBABC26649F3B006356CC /* DfuFlashPresenter.swift in Sources */,
 				A91D03092511207300694733 /* SelectionRouterInput.swift in Sources */,
 				0ED2364F234F2EB000CE6AA3 /* AsyncOperation.swift in Sources */,
 				0E8FD0DD2333714C00FFA577 /* TagChartsViewModel.swift in Sources */,
@@ -7273,8 +7475,11 @@
 				A90E16A024606B0500631E6C /* TagChartsInteractorInput.swift in Sources */,
 				66BC44982657AED400A03253 /* OffsetCorrectionAppleInitializer.swift in Sources */,
 				0E84BF592397F3C600A37E1A /* HeartbeatViewModel.swift in Sources */,
+				667CBACB26649F3B006356CC /* DfuFlashViewInput.swift in Sources */,
 				0E8FD0D323336B4200FFA577 /* TagChartsTransitioningDelegate.swift in Sources */,
+				667CBABF26649F3B006356CC /* DfuFlashModuleOutput.swift in Sources */,
 				0E046F3222F057DD00BD4E9C /* WebTagSettingsRouter.swift in Sources */,
+				66ADEB5E2666773F00BDF74A /* DfuLog.swift in Sources */,
 				A9758179249F471900BC150A /* LocationPersistence.swift in Sources */,
 				0E8A101A2384615400A9CBA6 /* DefaultsPresenter.swift in Sources */,
 				0E8BACD7245EE72500D380FB /* TrunkAssembly.swift in Sources */,
@@ -7322,11 +7527,13 @@
 				667CBA9C266497A4006356CC /* DfuScanner.swift in Sources */,
 				A9828E4024792D6B00E7E9D4 /* ReloadableSectionData.swift in Sources */,
 				0E046F3422F057FC00BD4E9C /* WebTagSettingsModuleInput.swift in Sources */,
+				667CBAC826649F3B006356CC /* DfuFlashViewOutput.swift in Sources */,
 				0E1C1E0522B400890032F6CA /* MenuTableConfigurator.swift in Sources */,
 				0E9D5F28235362AF0076FFD8 /* WebTagDaemonImpl.swift in Sources */,
 				0E8BD2AB23851CF2008B31EF /* DefaultsStepperTableViewCell.swift in Sources */,
 				0EEB20DF22B7C8790015F9E0 /* SettingsRouter.swift in Sources */,
 				A9B5743F253B993100DB7353 /* SignInConfigurator.swift in Sources */,
+				667CBAE62664CC96006356CC /* DfuFilePickerPresenterSheet.swift in Sources */,
 				0EA92FDB2387E734008F1558 /* TagSettingsAlertsHeaderFooterView.swift in Sources */,
 				0EE49B9923B877CF003012C2 /* WebTagSettingsAlertControlsCell.swift in Sources */,
 				0EDAC96B22F2FFAA00D0F6F2 /* WeatherProviderServiceImpl.swift in Sources */,
@@ -7341,6 +7548,7 @@
 				664A5D13265B8C050035A11F /* MigrationManagerSensorSettings.swift in Sources */,
 				0E84BF612397F73100A37E1A /* HeartbeatEnvironmentObject.swift in Sources */,
 				A964648A247BAE6B0001D55D /* AdvancedRouter.swift in Sources */,
+				667CBACE26649F3B006356CC /* DfuFlashViewModel.swift in Sources */,
 				0EC50F5222CCB9DE00172EEB /* TagSettingsViewModel.swift in Sources */,
 				0E1C1DDF22B3C2330032F6CA /* CardsPresenter.swift in Sources */,
 				0E3FF7372381591800EB98F9 /* DiscoverWebTagsInfoHeaderFooterView.swift in Sources */,
@@ -7390,9 +7598,11 @@
 				0E502FBA22B27D4800E8A6CC /* TemperatureUnit.swift in Sources */,
 				0EBAF070232007740025A191 /* LanguageViewOutput.swift in Sources */,
 				0E8A101E238461D400A9CBA6 /* DefaultsConfigurator.swift in Sources */,
+				667CBAC226649F3B006356CC /* DfuFlashModuleInput.swift in Sources */,
 				66BC449B2657AED400A03253 /* OffsetCorrectionConfigurator.swift in Sources */,
 				0E1C1DFC22B3FFD90032F6CA /* MenuRouter.swift in Sources */,
 				0ECFF36823507A1A0061D11B /* ForegroundRouterInput.swift in Sources */,
+				667CBADC2664B227006356CC /* DfuLogTableViewCell.swift in Sources */,
 				0EE49BB623B8C8C0003012C2 /* BackgroundTaskService.swift in Sources */,
 				0E2A2CA82369481D004993C5 /* GATTServiceQueue.swift in Sources */,
 				0E9F979222EAF1110015ADE2 /* DiscoverWebTagViewModel.swift in Sources */,
@@ -7433,6 +7643,7 @@
 				667CBA492664964A006356CC /* UpdateFirmwareModuleOutput.swift in Sources */,
 				0E02ABBD2375A1CF00ED4629 /* AlertService.swift in Sources */,
 				A98D3F06256CBD410066588B /* ShareModuleInput.swift in Sources */,
+				667CBAB626649F3B006356CC /* DfuFlashAppleInitializer.swift in Sources */,
 				A975817D249F476700BC150A /* LocationPersistenceImpl.swift in Sources */,
 				A949A83B24707FD0006B7F4F /* LocalizedCache.swift in Sources */,
 				0E8FD0D723336C6E00FFA577 /* TagChartsDismissTransitionAnimation.swift in Sources */,
@@ -7447,6 +7658,7 @@
 				0EBAF07B232008420025A191 /* LanguagePresenter.swift in Sources */,
 				A980573825807118000D03AB /* AboutViewModel.swift in Sources */,
 				A9A67BFA24C5C8A500C710D6 /* NSObjectProtocol+Invalidation.swift in Sources */,
+				667CBAE12664CC5A006356CC /* DfuFilePickerPresenter.swift in Sources */,
 				0E286418246062F000363DCB /* VirtualTagTrunk.swift in Sources */,
 				A94A886D24D6B5CE00D2CBA4 /* RUColor.swift in Sources */,
 				0E84BF4D239795B000A37E1A /* DiscoverModuleOutput.swift in Sources */,
@@ -7457,6 +7669,7 @@
 				0EA3106B232B760100BC8CF5 /* RUObservationToken.swift in Sources */,
 				0E046F5322F182AB00BD4E9C /* LocationPickerModuleInput.swift in Sources */,
 				A9758181249F4C9600BC150A /* LocationAppleClass.swift in Sources */,
+				667CBAD726649F3B006356CC /* DfuFlashRouterInput.swift in Sources */,
 				A90E16972460504C00631E6C /* TagChartModuleOutput.swift in Sources */,
 				667CBA6D2664964A006356CC /* DfuDevicesScannerViewOutput.swift in Sources */,
 				A91D031A25113EAA00694733 /* UnitPressure+Extension.swift in Sources */,
@@ -7506,6 +7719,7 @@
 				0E9F979622EAFC820015ADE2 /* DiscoverWebTagTableViewCell.swift in Sources */,
 				0EEB20FD22B7D2C90015F9E0 /* AboutModuleInput.swift in Sources */,
 				667CBA582664964A006356CC /* DfuDevicesScannerModuleInput.swift in Sources */,
+				667CBAC526649F3B006356CC /* DfuFlashAppleViewController.swift in Sources */,
 				0EEB214922B8FC570015F9E0 /* WelcomeViewOutput.swift in Sources */,
 				0E2864302460697100363DCB /* VirtualTagTankCoordinator.swift in Sources */,
 				A9B57443253B994700DB7353 /* SignInViewInput.swift in Sources */,
@@ -7613,6 +7827,7 @@
 				0EEB216322BA61A80015F9E0 /* MigrationManagerToVIPER.swift in Sources */,
 				0E1C1DA022B36C100032F6CA /* RUError.swift in Sources */,
 				0E046F5D22F18EC100BD4E9C /* LocationService.swift in Sources */,
+				667CBAD426649F3B006356CC /* DfuFlashRouter.swift in Sources */,
 				0E9F979422EAF21D0015ADE2 /* WeatherProvider.swift in Sources */,
 				0E45580E23E935400025AEBF /* BackgroundProcessServiceiOS12.swift in Sources */,
 				667CBA96266497A4006356CC /* DfuDevice.swift in Sources */,
@@ -7636,6 +7851,7 @@
 				0ECFF36223506C050061D11B /* ForegroundRow.swift in Sources */,
 				0EEB20D822B7C8060015F9E0 /* SettingsViewOutput.swift in Sources */,
 				0E31B04223BBA37C00660412 /* WebTagSettingsAlertsHeaderFooterView.swift in Sources */,
+				667CBAB926649F3B006356CC /* DfuFlashConfigurator.swift in Sources */,
 				A91D0311251123B400694733 /* SelectionModuleOutput.swift in Sources */,
 				0ECFF366235079F50061D11B /* ForegroundPresenter.swift in Sources */,
 				0E53A3FB232F4D5000ACED49 /* DiscoverNoDevicesTableViewCell.swift in Sources */,
@@ -7671,6 +7887,7 @@
 				0E1C1D9122B35D6A0032F6CA /* Worker.swift in Sources */,
 				A9020042244E14F8001882C3 /* ChartFilterOperation.swift in Sources */,
 				A9646475247BAE6B0001D55D /* AdvancedViewOutput.swift in Sources */,
+				66ADEB622666930F00BDF74A /* DfuFlasher.swift in Sources */,
 				0E1C1DC422B395C00032F6CA /* ErrorPresenterAlert.swift in Sources */,
 				0ECFF359235060EF0061D11B /* ForegroundViewController.swift in Sources */,
 				A91D03002511207300694733 /* SelectionTableViewController.swift in Sources */,
@@ -8371,6 +8588,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.1.1;
+			};
+		};
+		667CBAE92664F5A7006356CC /* XCRemoteSwiftPackageReference "IOS-Pods-DFU-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:NordicSemiconductor/IOS-Pods-DFU-Library.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.10.3;
 			};
 		};
 		A9DDC7122531169200FA4704 /* XCRemoteSwiftPackageReference "Humidity" */ = {

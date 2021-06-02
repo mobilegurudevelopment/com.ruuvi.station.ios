@@ -4,6 +4,7 @@ import CoreBluetooth
 
 class DfuDevicesScannerTableViewController: UITableViewController {
     var output: DfuDevicesScannerViewOutput!
+    @IBOutlet weak var descriptionLabel: UILabel!
 
     var isBluetoothEnabled: Bool = false {
         didSet {
@@ -38,7 +39,8 @@ class DfuDevicesScannerTableViewController: UITableViewController {
     }
 
     func localize() {
-        self.title = "Devices"
+        self.title = "DfuDevicesScanner.Title.text".localized()
+        descriptionLabel.text = "DfuDevicesScanner.Description.text".localized()
     }
 
     private func reloadTable() {
@@ -51,8 +53,8 @@ class DfuDevicesScannerTableViewController: UITableViewController {
 // MARK: - DfuDevicesScannerViewInput
 extension DfuDevicesScannerTableViewController: DfuDevicesScannerViewInput {
     func showBluetoothDisabled() {
-        let title = "DiscoverTable.BluetoothDisabledAlert.title".localized()
-        let message = "DiscoverTable.BluetoothDisabledAlert.message".localized()
+        let title = "DfuDevicesScanner.BluetoothDisabledAlert.title".localized()
+        let message = "DfuDevicesScanner.BluetoothDisabledAlert.message".localized()
         showAlert(title: title, message: message)
     }
 }
@@ -67,8 +69,8 @@ extension DfuDevicesScannerTableViewController {
         if viewModels.isEmpty {
             let cell = tableView.dequeueReusableCell(with: DfuNoDeviceTableViewCell.self, for: indexPath)
             cell.descriptionLabel.text = isBluetoothEnabled
-                ? "DiscoverTable.NoDevicesSection.NotFound.text".localized()
-                : "DiscoverTable.NoDevicesSection.BluetoothDisabled.text".localized()
+                ? "DfuDevicesScanner.NoDevice.text".localized()
+                : "DfuDevicesScanner.BluetoothDisabled.text".localized()
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(with: DfuDeviceTableViewCell.self, for: indexPath)
@@ -95,15 +97,15 @@ extension DfuDevicesScannerTableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if !viewModels.isEmpty {
-            // TODO: open item
+            output.viewDidOpenFlashFirmware(uuid: viewModels[indexPath.row].id)
         }
     }
 
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40
+        return 20
     }
 
     override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 40
+        return 20
     }
 }

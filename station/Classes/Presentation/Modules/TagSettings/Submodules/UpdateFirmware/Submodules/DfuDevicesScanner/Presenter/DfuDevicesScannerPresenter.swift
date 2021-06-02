@@ -64,8 +64,11 @@ extension DfuDevicesScannerPresenter: DfuDevicesScannerViewOutput {
         stopObservingDfuDevices()
     }
 
-    func viewDidOpenFlashFirmware() {
-        router.openFlashFirmware(ruuviTag)
+    func viewDidOpenFlashFirmware(uuid: String) {
+        guard let dfuDevice = dfuDevices.first(where: {$0.uuid == uuid}) else {
+            return
+        }
+        router.openFlashFirmware(dfuDevice)
     }
 }
 

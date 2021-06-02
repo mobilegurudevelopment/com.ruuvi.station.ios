@@ -34,12 +34,27 @@ class TagSettingsRouter: TagSettingsRouterInput {
     }
 
     func openUpdateFirmware(ruuviTag: RuuviTagSensor) {
-        let factory = StoryboardFactory(storyboardName: "UpdateFirmware")
+//        let factory = StoryboardFactory(storyboardName: "UpdateFirmware")
+//        try! transitionHandler
+//            .forStoryboard(factory: factory, to: UpdateFirmwareModuleInput.self)
+//            .to(preferred: .navigation(style: .push))
+//            .then({ (module) -> Any? in
+//                module.configure(ruuviTag: ruuviTag)
+//            })
+//        let factory = StoryboardFactory(storyboardName: "DfuDevicesScanner")
+//        try! transitionHandler
+//            .forStoryboard(factory: factory, to: DfuDevicesScannerModuleInput.self)
+//            .to(preferred: .navigation(style: .push))
+//            .then({ (module) -> Any? in
+//                module.configure(ruuviTag: ruuviTag)
+//            })
+        let factory = StoryboardFactory(storyboardName: "DfuFlash")
         try! transitionHandler
-            .forStoryboard(factory: factory, to: UpdateFirmwareModuleInput.self)
+            .forStoryboard(factory: factory, to: DfuFlashModuleInput.self)
             .to(preferred: .navigation(style: .push))
             .then({ (module) -> Any? in
-                module.configure(ruuviTag: ruuviTag)
+                //module.configure(ruuviTag: ruuviTag)
+                module.configure(dfuDevice: DfuDevice(uuid: "", rssi: 0, isConnectable: true, name: ""))
             })
     }
 }

@@ -390,7 +390,7 @@ extension TagSettingsTableViewController {
             return TagSettingsTableSection.showNetworkInfo(for: viewModel)
                 ? "TagSettings.SectionHeader.NetworkInfo.title".localized() : nil
         case .firmware:
-            return "Firmware"
+            return "TagSettings.SectionHeader.Firmware.title".localized()
         default:
             return nil
         }

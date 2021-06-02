@@ -4,5 +4,5 @@ protocol DfuDevicesScannerViewOutput: AnyObject {
     func viewDidLoad()
     func viewWillAppear()
     func viewWillDisappear()
-    func viewDidOpenFlashFirmware()
+    func viewDidOpenFlashFirmware(uuid: String)
 }

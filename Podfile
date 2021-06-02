@@ -48,6 +48,7 @@ def shared_pods
   pod 'SwinjectPropertyLoader', :git => 'https://github.com/rinat-enikeev/SwinjectPropertyLoader'
   pod 'SwiftGen', '~> 6.0'
   pod 'KeychainAccess'
+  pod 'iOSDFULibrary'
 end
 
 target 'station' do

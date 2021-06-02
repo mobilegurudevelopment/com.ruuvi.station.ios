@@ -79,6 +79,10 @@ class DfuScanner: NSObject {
             }
         }
     }
+    
+    func connect(uuid: String) {
+        
+    }
 }
 
 extension DfuScanner: CBCentralManagerDelegate {

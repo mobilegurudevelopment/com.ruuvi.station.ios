@@ -2,20 +2,20 @@ import Foundation
 import LightRoute
 import RuuviOntology
 
-class DfuDevicesScannerRouter: DfuDevicesScannerRouterInput {
+class DfuFlashRouter: DfuFlashRouterInput {
     weak var transitionHandler: TransitionHandler!
 
     func dismiss() {
         try! transitionHandler.closeCurrentModule().perform()
     }
 
-    func openFlashFirmware(_ dfuDevice: DfuDevice) {
-        let factory = StoryboardFactory(storyboardName: "DfuFlash")
+    func openDfuDevicesScanner(_ ruuviTag: RuuviTagSensor) {
+        let factory = StoryboardFactory(storyboardName: "DfuDevicesScanner")
         try! transitionHandler
-            .forStoryboard(factory: factory, to: DfuFlashModuleInput.self)
+            .forStoryboard(factory: factory, to: DfuDevicesScannerModuleInput.self)
             .to(preferred: .navigation(style: .push))
             .then({ (module) -> Any? in
-                module.configure(dfuDevice: dfuDevice)
+                module.configure(ruuviTag: ruuviTag)
             })
     }
 }
